@@ -85,6 +85,15 @@ h1 {
     margin: 0;
 }
 
+
+.contacts {
+    border-left: 6px solid #2563eb;
+}
+
+.contacts p + p {
+    margin-top: 8px;
+}
+
 @media (max-width: 640px) {
     .page {
         width: min(100% - 24px, 920px);
